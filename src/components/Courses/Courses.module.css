@@ -1,0 +1,19 @@
+.searchCourse__wrapper{
+    display: flex;
+    padding:30px;
+    justify-content: space-between;
+}
+
+.searchCourse__wrapper button:last-child{
+   margin:0 0 0 auto;
+}
+.courses{
+    outline: 1px solid blue;
+    padding:0 30px 50px;
+}
+.searchCourse__input{
+    display: flex;
+}
+.searchCourse__input input{
+    width: 400px;
+}

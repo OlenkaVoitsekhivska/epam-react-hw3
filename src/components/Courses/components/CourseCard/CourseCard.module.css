@@ -1,0 +1,40 @@
+.card__container{
+    display: flex;
+    height: 150px;
+    outline: 1px solid green;
+    padding: 30px 20px;
+    justify-content: space-between;
+    align-items:flex-start;
+}
+.card__container:not(:last-child){
+    margin-bottom:20px;
+}
+.card__left,.card__right{
+    width: 48%;
+    text-align: left;
+}
+.card__right button{
+    margin: 0 auto;
+}
+
+.card__authors{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.card__right p:first-child{
+    margin-top:0;
+}
+
+.course__description{
+    text-overflow:ellipsis;
+  overflow:hidden;
+
+  display: -webkit-box !important;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  white-space: normal;
+}
+.btn__group{
+    display: flex;
+}

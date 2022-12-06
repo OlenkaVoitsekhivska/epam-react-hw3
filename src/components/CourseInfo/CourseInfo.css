@@ -1,0 +1,30 @@
+.courseInfo__wrapper{
+    margin-top: 50px;
+    outline:1px solid rgb(44, 192, 250);
+    padding: 30px;
+}
+
+#back{
+    border-color: transparent;
+}
+
+.courseInfo__card{
+    margin-top: 50px;
+    display: grid;
+    grid-template-areas:
+    "left  right";
+    grid-template-columns: 55% 40%;
+    gap: 5%;
+    justify-content: space-between;
+}
+
+.courseInfo__card--left{
+    grid-area:left;
+}
+
+.courseInfo__card--right{
+    grid-area:right;
+}
+h1{
+    text-align: center;
+}

@@ -1,0 +1,8 @@
+.input__container>input{
+    box-sizing: border-box;
+    width: 100%;
+    border-style: solid;
+    border-color: rgb(180, 170, 32);
+    height: 35px;
+    text-indent: 10px;
+}
